@@ -7,6 +7,9 @@ class Hcf {
     //全局对象
     private static $hcf;
 
+    //支持的对象
+    public $router;
+
     public function __construct() {
     }
 
